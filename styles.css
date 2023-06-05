@@ -1,0 +1,66 @@
+body {
+  
+  background: linear-gradient(
+	rgba(142, 123, 123, 0.7),
+	rgba(175, 166, 166, 0.7)
+  ),
+	url('soundboard.jpeg');
+  
+  background-size: cover;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+.buttons {
+	background-color: yellow; 
+	width: 90px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: rgb(20, 30, 220);
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	border-radius: 25px;
+}
+
+.places {
+
+
+	display: inline;
+}
+.randomButton {
+	background-color:aquamarine; 
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+}
